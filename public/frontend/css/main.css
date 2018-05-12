@@ -1,0 +1,19 @@
+/*up-down button code*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 70px;
+  right: 0px;
+  z-index: 100;
+  border: none;
+  outline: none;
+  background-color: #4d94ff;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
