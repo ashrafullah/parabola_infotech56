@@ -22,6 +22,41 @@
         <script src="{{asset('frontend/js/typed.js')}}"></script>
         <script src="{{asset('frontend/js/wow.min.js')}}"></script>
         <script src="{{asset('frontend/js/custom.js')}}"></script>
+         <!-- image gallary -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+
+      <style type="text/css">
+    .gallery
+    {
+        display: inline-block;
+        margin-top: 20px;
+    }
+    .close-icon{
+      border-radius: 50%;
+        position: absolute;
+        right: 5px;
+        top: -10px;
+        padding: 5px 8px;
+        /* display: none; */
+        /* display: none; */
+    }
+    .form-image-upload{
+        background: #e8e8e8 none repeat scroll 0 0;
+        padding: 15px;
+        
+    }
+    </style>
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $(".fancybox").fancybox({
+            openEffect: "none",
+            closeEffect: "none"
+        });
+    });
+</script>
     </head>
     @yield('content')
     </body>

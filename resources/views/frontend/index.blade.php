@@ -52,10 +52,10 @@
 				<div class="collapse navbar-collapse">
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="#top">HOME</a></li>
-						<li><a href="#about">ABOUT</a></li>
 						<li><a href="#team">SKILL</a></li>
 						<li><a href="#service">EDUCATION</a></li>
 						<li><a href="#portfolio">PORTFOLIO</a></li>
+                        <li><a href="#about">ABOUT</a></li>
 						<li><a href="#contact">CONTACT</a></li>
 					</ul>
 				</div>
@@ -65,7 +65,7 @@
 
     	<!-- start home -->
     	<section id="home">
-    		<div class="container">
+    		{{-- <div class="container">
     			<div class="row">
     				<div class="col-md-offset-2 col-md-8">
     					<h1 class="wow fadeIn" data-wow-offset="50" data-wow-delay="0.9s"><img src="images/ashraf.jpg" class="img-circle" alt="Cinque Terre" width="250" height="270"></h1>
@@ -77,181 +77,104 @@
     					<a data-scroll href="#about" class="btn btn-default wow fadeInUp" data-wow-offset="50" data-wow-delay="0.6s">About</a>
     				</div>
     			</div>
-    		</div>
+			</div> --}}
+			<div class="container">
+				
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				  <!-- Indicators -->
+				  <ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				  </ol>
+			  
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner">
+			  
+					<div class="item active">
+					  <!-- <img src=" alt="" style="width:100%;') }}"> -->
+                       @foreach($images as $image)
+               
+                                            <img class="img-responsive" alt="" src="/images/{{ $image->image }}" style="width: 100%"; />
+                        
+                   
+                         @endforeach
+					  
+					 <!--  <div class="carousel-caption">
+						<h3>Los Angeles</h3>
+						<p>LA is always so much fun!</p>
+					  </div> -->
+					</div>
+			  
+					<div class="item">
+					  @foreach($images as $image)
+               
+                                            <img class="img-responsive" alt="" src="/images/{{ $image->image }}" style="width: 100%"; />
+                        
+                   
+                         @endforeach
+					  <!-- <div class="carousel-caption">
+						<h3>Chicago</h3>
+						<p>Thank you, Chicago!</p>
+					  </div> -->
+					</div>
+				  
+					<div class="item">
+                        @foreach($images as $image)
+               
+                                            <img class="img-responsive" alt="" src="/images/{{ $image->image }}" style="width: 100%"; />
+                        
+                   
+                         @endforeach
+					  <!-- <img src="ny.jpg" alt="New York" style="width:100%;"> -->
+					  <!-- <div class="carousel-caption">
+						<h3>New York</h3>
+						<p>We love the Big Apple!</p>
+					  </div> -->
+					</div>
+				
+				  </div>
+			  
+				  <!-- Left and right controls -->
+				  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+					<span class="sr-only">Previous</span>
+				  </a>
+				  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+					<span class="sr-only">Next</span>
+				  </a>
+				</div>
+			  </div>
     	</section>
     	<!-- end home -->
+        
 
-    	<!-- start about -->
-		<section id="about">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-    					<h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">Personal Details</h2>
-    				</div>
-					<div class="col-md-8 col-sm-4 col-xs-12 wow fadeInLeft" data-wow-offset="50" data-wow-delay="0.6s">
-						<div class="media">
-							<div class="media-heading-wrapper">
-								<div class="media-object pull-left">
-									<i class="fa fa-user"></i>
-								</div>
-								<!--<h3 class="media-heading">FULLY RESPONSIVE</h3>-->
-							</div>
-							<div class="media-body">
-								<address>
-									Name			    :   Md. Ashraf Ullah Bhuiyan<br>
-									Father’s Name		: 	Ahsan Ullah Bhuiyan<br>
-									Mother’s name		:	Latifa Begum<br>
-									Date of birth		:	27,December, 1993<br>
-									Permanent Address   :	Hazi Mumin Bhuiyan Bari. <br>
-															Village- West Pathangor, P.O.- Pathan nogor,<br>
-															P.S.- Chhagalnaiya, District - Feni.<br>
-										
-									
-									Nationality			:	Bangladeshi <br>
-									Religion			:	Islam<br>
-								    <!--	Marital Status		:	Unmarried<br>-->
-										
-									
-									
-
-						   		</address>
-							</div>
-						</div>
-					</div>
-					<!--<div class="col-md-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-offset="50" data-wow-delay="0.9s">
-						<div class="media">
-							<div class="media-heading-wrapper">
-								<div class="media-object pull-left">
-									<i class="fa fa-comment-o"></i>
-								</div>
-								<h3 class="media-heading">FREE SUPPORT</h3>
-							</div>
-							<div class="media-body">
-								<p>Credits go to <a rel="nofollow" href="http://pixabay.com">Pixabay</a> for homepage image and <a rel="nofollow" href="http://unsplash.com">Unsplash</a> for portfolio images. Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie.</p>
-							</div>
-						</div>-->
-					</div>
-					<!--<div class="col-md-8 col-sm-4 col-xs-12 wow fadeInRight" data-wow-offset="50" data-wow-delay="0.6s">
-						<div class="media">
-							<div class="media-heading-wrapper">
-								<div class="media-object pull-left">
-									<i class="fa fa-html5"></i>
-								</div>
-								<h3 class="media-heading">HTML5 &AMP; CSS3</h3>
-							</div>
-							<div class="media-body">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. Adipiscing vitae vel quam proin eget mauris eget. Lorem ipsum dolor sit amet.</p>
-							</div>
-						</div>-->
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- end about -->
+ 
 
     	<!-- start team -->
     	<section id="team">
     		<div class="container">
 
-			  <h2>Professional Skill</h2>
-			  
-			  <div class="progress">
-			    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-			      90% HTML5, CSS3, Bootstrap
-			    </div>
-			  </div>
-			  <div class="progress">
-			    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:80%">
-			      80% Javascript, Jquery
-			    </div>
-			  </div>
-			  <div class="progress">
-			    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-			      70% PHP, OOPHP, Laravel
-			    </div>
-			  </div>
-			  <div class="progress">
-			    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-			      50% C, Java,python
-			    </div>
-			  </div>
-			</div>
-
-			<div class="container">
-			  <h2>Soft Skill</h2>
-			   
-			  <div class="progress">
-			    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:80%">
-			      80% Communication
-			    </div>
-			  </div>
-			  <div class="progress">
-			    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-			      70% Teamwork
-			    </div>
-			  </div>
-			  <div class="progress">
-			    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:65%">
-			      65% Creativity
-			    </div>
-			  </div>
-			  <div class="progress">
-			    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-			      90% Dedication
-			    </div>
-			  </div>
-			</div>
+			 <div class="row">
+    <div class='list-group gallery'>
 
 
-            </div>
-        </div>
-    </div>
-    			<!--<div class="row">
-    				<div class="col-md-12">
-    					<h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s"><span>AWESOME</span> THOUGHTS</h2>
-    				</div>
-    				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.3s">
-    					<div class="team-wrapper">
-    						<img src="images/team-img1.jpg" class="img-responsive" alt="team img 1">
-    							<div class="team-des">
-    								<h4>TRACY</h4>
-    								<span>Designer</span>
-    								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molest.</p>
-    							</div>
-    					</div>
-    				</div>
-    				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.6s">
-    					<div class="team-wrapper">
-    						<img src="images/team-img2.jpg" class="img-responsive" alt="team img 2">
-    							<div class="team-des">
-    								<h4>MARY</h4>
-    								<span>Developer</span>
-    								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molest.</p>
-    							</div>
-    					</div>
-    				</div>
-    				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.3s">
-    					<div class="team-wrapper">
-    						<img src="images/team-img3.jpg" class="img-responsive" alt="team img 3">
-    							<div class="team-des">
-    								<h4>JULIA</h4>
-    								<span>Director</span>
-    								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molest.</p>
-    							</div>
-    					</div>
-    				</div>
-    				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.6s">
-    					<div class="team-wrapper">
-    						<img src="images/team-img4.jpg" class="img-responsive" alt="team img 4">
-    							<div class="team-des">
-    								<h4>LINDA</h4>
-    								<span>Manager</span>
-    								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molest.</p>
-    							</div>
-    					</div>
-    				</div>
-    			</div>-->
-    		</div>
+            
+                @foreach($images as $image)
+                <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                    <a class="thumbnail fancybox" rel="ligthbox" href="/images/{{ $image->image }}">
+                        <img class="img-responsive" alt="" src="/images/{{ $image->image }}" />
+                        
+                    </a>
+                    
+                </div> <!-- col-6 / end -->
+                @endforeach
+            
+
+
+        </div> <!-- list-group / end -->
+    </div> <!-- row / end -->
     	</section>
     	<!-- end team -->
 
@@ -375,6 +298,58 @@
     	</section>
     	<!-- end portfolio -->
 
+            <!-- start about -->
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">ABOUT</h2>
+                    </div>
+                    <div class="col-md-8 col-sm-4 col-xs-12 wow fadeInLeft" data-wow-offset="50" data-wow-delay="0.6s">
+                        <div class="media">
+                            <div class="media-heading-wrapper">
+                                <div class="media-object pull-left">
+                                    <i class="fa fa-user"></i>
+                                </div>
+                                <!--<h3 class="media-heading">FULLY RESPONSIVE</h3>-->
+                            </div>
+                             
+                                <div class="container">
+               
+                        
+                    </div>
+                    <div class="col-md-8 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+                        <h3>Biography</h3>
+                        
+                        <p>FBI has started its journey from …. . It has passed a long way to come at this stage. At this time Concerns have been established and there have a lot of attempt to do so. 
+Board of directories has been structured in a such way to meet any problem and to any concern directly. We have a mission to enrich our service and serve the people. And this is the starting of a new era to combine all the technology and ideas. . Our software solution has proved its quality to our valuable client. Not only in software but also we are about to design ones dream. Building architecture, fashions, entertainment and holiday planner all the concepts are live for your service for a long time. E-commerce is available for your comfort shopping. All the sister concerns are for our valuable customers. We are trying to make life easier and this is our vision to make ourselves one of yours brand. .</p>
+                    </div>
+                    <div class="col-md-4 active wow fadeIn" data-wow-offset="50" data-wow-delay="0.9s">
+                        <h3>Official Info</h3>
+                        <address>
+                                    Phone              :   +880 1912 005 005<br>
+                                    Road               :- 23 Block - F Bashundhara<br>
+                                    Mail               :   info@fbigroupbd.com.<br>
+                                   
+                                    Website            :   www.fbigroupbd.com<br>
+                                    <!--    Marital Status      :   Unmarried<br>-->
+                                    
+                                </address>
+                    </div>
+                    
+                </div>
+            </div>
+  </div>
+  
+   
+  </div>
+
+                                  
+                           
+                    
+        </section>
+        <!-- end about -->
+
     	<!-- start contact -->
     	<section id="contact">
     		<div class="container">
@@ -441,6 +416,15 @@
 		    document.documentElement.scrollTop = 0;
 		}
 		</script>
+
+        <script type="text/javascript">
+    $(document).ready(function(){
+        $(".fancybox").fancybox({
+            openEffect: "none",
+            closeEffect: "none"
+        });
+    });
+</script>
 
         <!-- start copyright -->
         <footer id="copyright">

@@ -20,10 +20,20 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 // admin routes
 
-Route::get('/admin/index', 'AdminController@index')->name('index');
+Route::get('/admin/index', 'AdminController@index')->name('admin');
+// add categorylist
+
 Route::get('/admin/categorylist', 'AdminController@categorylist')->name('categorylist');
+
 Route::get('/admin/add_category', 'AdminController@add_category')->name('add_category');
+Route::post('/admin/add_category', 'AdminController@upload')->name('upload');
+Route::delete('/admin/add_category/{id}', 'AdminController@destroy');
+
+// user list
+
 Route::get('/admin/users_list', 'AdminController@users_list')->name('users_list');
+
+
 
 // frontend routes
 

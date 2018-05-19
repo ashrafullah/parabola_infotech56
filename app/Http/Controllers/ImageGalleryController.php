@@ -5,40 +5,17 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\ImageGallery;
 
-class AdminController extends Controller
+class ImageGalleryController extends Controller
 {
-    public function index()
-    {
-    	return view('admin.index');
-    }
-
-    public function categorylist()
-    {
-    	return view('admin.categorylist');
-    }
-
-    //  public function add_category()
-    // {
-    // 	return view('admin.add_category');
-    // }
-
-     public function users_list()
-    {
-    	return view('admin.users_list');
-    }
-
-
-
-
     /**
      * Listing Of images gallery
      *
      * @return \Illuminate\Http\Response
      */
-    public function add_category()
+    public function index()
     {
-        $images = ImageGallery::get();
-        return view('admin.add_category',compact('images'));
+    	$images = ImageGallery::get();
+    	return view('image-gallery',compact('images'));
     }
 
 
@@ -49,8 +26,8 @@ class AdminController extends Controller
      */
     public function upload(Request $request)
     {
-        $this->validate($request, [
-            'title' => 'required',
+    	$this->validate($request, [
+    		'title' => 'required',
             'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ]);
 
@@ -63,8 +40,8 @@ class AdminController extends Controller
         ImageGallery::create($input);
 
 
-        return back()
-            ->with('success','Image Uploaded successfully.');
+    	return back()
+    		->with('success','Image Uploaded successfully.');
     }
 
 
@@ -75,8 +52,8 @@ class AdminController extends Controller
      */
     public function destroy($id)
     {
-        ImageGallery::find($id)->delete();
-        return back()
-            ->with('success','Image removed successfully.');    
+    	ImageGallery::find($id)->delete();
+    	return back()
+    		->with('success','Image removed successfully.');	
     }
 }
