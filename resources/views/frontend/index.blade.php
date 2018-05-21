@@ -52,9 +52,9 @@
 				<div class="collapse navbar-collapse">
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="#top">HOME</a></li>
-						<li><a href="#team">SKILL</a></li>
-						<li><a href="#service">EDUCATION</a></li>
-						<li><a href="#portfolio">PORTFOLIO</a></li>
+						<li><a href="#team">BUSINESS VENTURES</a></li>
+						<li><a href="#service">SOCIAL & MEDIA</a></li>
+						<li><a href="#portfolio">ABOUT US</a></li>
                         <li><a href="#about">ABOUT</a></li>
 						<li><a href="#contact">CONTACT</a></li>
 					</ul>
@@ -95,7 +95,7 @@
 					  <!-- <img src=" alt="" style="width:100%;') }}"> -->
                        @foreach($images as $image)
                
-                                            <img class="img-responsive" alt="" src="/images/{{ $image->image }}" style="width: 100%"; />
+                                            <img class="img-responsive" alt="" src="/images/slider/{{ $image->image }}" style="width: 100%"; />
                         
                    
                          @endforeach
@@ -109,7 +109,7 @@
 					<div class="item">
 					  @foreach($images as $image)
                
-                                            <img class="img-responsive" alt="" src="/images/{{ $image->image }}" style="width: 100%"; />
+                                            <img class="img-responsive" alt="" src="/images/slider/{{ $image->image }}" style="width: 100%"; />
                         
                    
                          @endforeach
@@ -122,7 +122,7 @@
 					<div class="item">
                         @foreach($images as $image)
                
-                                            <img class="img-responsive" alt="" src="/images/{{ $image->image }}" style="width: 100%"; />
+                                            <img class="img-responsive" alt="" src="/images/slider/{{ $image->image }}" style="width: 100%"; />
                         
                    
                          @endforeach
@@ -163,8 +163,8 @@
             
                 @foreach($images as $image)
                 <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-                    <a class="thumbnail fancybox" rel="ligthbox" href="/images/{{ $image->image }}">
-                        <img class="img-responsive" alt="" src="/images/{{ $image->image }}" />
+                    <a class="thumbnail fancybox" rel="ligthbox" href="/images/business/{{ $image->image }}">
+                        <img class="img-responsive" alt="" src="/images/business/{{ $image->image }}" />
                         
                     </a>
                     
@@ -183,22 +183,31 @@
     		<div class="container">
     			<div class="row">
     				<div class="col-md-12">
-    					<h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">Education</h2>
+    					<h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">SOCIAL & MEDIA</h2>
     				</div>
     				<div class="col-md-4 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
-    					<i class="fa fa-graduation-cap"></i>
-    					<h4>B.Sc. in Computer Science & Engineering</h4>
-    					<p>Institute   :    International Islamic University Chittagong</p>
+    					@foreach($images as $image)
+               
+                                            <img class="img-responsive" alt="" src="/images/slider/{{ $image->image }}"/>
+                        
+                   
+                         @endforeach
     				</div>
     				<div class="col-md-4 active wow fadeIn" data-wow-offset="50" data-wow-delay="0.9s">
-    					<i class="fa fa-header"></i>
-    					<h4>Higher Secondary School Certificate (HSC)</h4>
-    					<p>Institute	:	Moulavi Shamsul Karim College, Chhagalnaiya</p>
+    					@foreach($images as $image)
+               
+                                            <img class="img-responsive" alt="" src="/images/{{ $image->image }}"/>
+                        
+                   
+                         @endforeach
     				</div>
     				<div class="col-md-4 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
-    					<i class="fa fa-scribd"></i>
-    					<h4>Secondary School Certificate (SSC) </h4>
-    					<p>Institute	:	Chhagalnaiya Pilot High School, Chhagalnaiya.</p>
+    					@foreach($images as $image)
+               
+                                            <img class="img-responsive" alt="" src="/images/{{ $image->image }}"; />
+                        
+                   
+                         @endforeach
     				</div>
     			</div>
     		</div>

@@ -369,8 +369,8 @@
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
         <li class="active treeview">
-          <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+          <a href="{{ url('/admin/index') }}">
+            <i class="fa fa-dashboard"></i> <span>DASHBOARD</span>
             <span class="pull-right-container">
              <!--  <i class="fa fa-angle-left pull-right"></i> -->
             </span>
@@ -383,27 +383,27 @@
         <li class="treeview">
           <a href="#">
             <i class="fa fa-files-o"></i>
-            <span>Categories</span>
+            <span>SLIDER</span>
            <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="{{ url('/admin/categorylist') }}"><i class="fa fa-circle-o"></i> Category List</a></li>
-            <li><a href="{{ url('/admin/add_category') }}"><i class="fa fa-circle-o"></i> Add Category</a></li>
+            <!-- <li><a href="{{ url('/admin/categorylist') }}"><i class="fa fa-circle-o"></i> Category List</a></li> -->
+            <li><a href="{{ url('/admin/add_slider') }}"><i class="fa fa-circle-o"></i> add_slider </a></li>
           
           </ul>
         </li>
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-edit"></i> <span>Users</span>
+            <i class="fa fa-edit"></i> <span>BUSINESS VENTURES</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="{{ url('/admin/users_list') }}"><i class="fa fa-circle-o"></i> Users list</a></li>
-            <li><a href="add_users.html"><i class="fa fa-circle-o"></i> Add Users</a></li>
+            <li><a href="{{ url('/admin/business') }}"><i class="fa fa-circle-o"></i> add_business</a></li>
+            <!-- <li><a href="add_users.html"><i class="fa fa-circle-o"></i> Add Users</a></li> -->
             
           </ul>
         </li>
@@ -411,7 +411,7 @@
         <li class="treeview">
           <a href="#">
             <i class="fa fa-laptop"></i>
-            <span>Brands</span>
+            <span>SOCIAL & MEDIA</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
@@ -428,7 +428,7 @@
         
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-table"></i> <span>Products</span>
+            <i class="fa fa-table"></i> <span>ABOUT US</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>

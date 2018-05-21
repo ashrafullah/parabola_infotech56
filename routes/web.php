@@ -23,12 +23,15 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/admin/index', 'AdminController@index')->name('admin');
 // add categorylist
 
-Route::get('/admin/categorylist', 'AdminController@categorylist')->name('categorylist');
+// Route::get('/admin/categorylist', 'AdminController@categorylist')->name('categorylist');
 
-Route::get('/admin/add_category', 'AdminController@add_category')->name('add_category');
-Route::post('/admin/add_category', 'AdminController@upload')->name('upload');
-Route::delete('/admin/add_category/{id}', 'AdminController@destroy');
-
+Route::get('/admin/add_slider', 'AdminController@add_slider')->name('add_slider');
+Route::post('/admin/add_slider', 'AdminController@upload')->name('upload');
+Route::delete('/admin/add_slider/{id}', 'AdminController@destroy');
+// Business phpto
+Route::get('/admin/business', 'BusinessController@show')->name('business');
+Route::post('/admin/business', 'BusinessController@upload')->name('business_upload');
+Route::delete('/admin/business/{id}', 'BusinessController@destroy');
 // user list
 
 Route::get('/admin/users_list', 'AdminController@users_list')->name('users_list');

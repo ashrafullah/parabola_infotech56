@@ -3,12 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\ImageGallery;
 use App\Business;
 
-class AdminController extends Controller
+class BusinessController extends Controller
 {
-    public function index()
+     public function index()
     {
     	return view('admin.index');
     }
@@ -36,10 +35,10 @@ class AdminController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function add_slider()
+    public function show()
     {
-        $images = ImageGallery::get();
-        return view('admin.add_slider',compact('images'));
+        $business = Business::get();
+        return view('admin.business',compact('business'));
     }
 
 
@@ -57,11 +56,11 @@ class AdminController extends Controller
 
 
         $input['image'] = time().'.'.$request->image->getClientOriginalExtension();
-        $request->image->move(public_path('images/slider'), $input['image']);
+        $request->image->move(public_path('images/business'), $input['image']);
 
 
         $input['title'] = $request->title;
-        ImageGallery::create($input);
+        Business::create($input);
 
 
         return back()
@@ -76,7 +75,7 @@ class AdminController extends Controller
      */
     public function destroy($id)
     {
-        ImageGallery::find($id)->delete();
+        Business::find($id)->delete();
         return back()
             ->with('success','Image removed successfully.');    
     }

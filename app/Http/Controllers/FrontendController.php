@@ -4,12 +4,15 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\ImageGallery;
+use App\Business;
 
 class FrontendController extends Controller
 {
     public function frontend()
     {
     	$images = ImageGallery::get();
-    	return view('frontend.index',compact('images'));
+    	$business = Business::get();
+    	// $obj = (object) array_merge((array) $images, (array) $business);
+    	return view('frontend.index', compact('images','business'));
     }
 }

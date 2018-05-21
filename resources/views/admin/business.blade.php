@@ -4,8 +4,8 @@
  <div class="container">
 
 
-    <h3>Laravel - Image Gallery CRUD Example</h3>
-    <form action="{{ url('/admin/add_category') }}" class="form-image-upload" method="POST" enctype="multipart/form-data">
+    <!-- <h3>Laravel - Image Gallery CRUD Example</h3> -->
+    <form action="{{ url('/admin/business') }}" class="form-image-upload" method="POST" enctype="multipart/form-data">
 
 
         {!! csrf_field() !!}
@@ -54,16 +54,16 @@
     <div class='list-group gallery'>
 
 
-            @if($images->count())
-                @foreach($images as $image)
+            @if($business->count())
+                @foreach($business as $image)
                 <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-                    <a class="thumbnail fancybox" rel="ligthbox" href="/images/{{ $image->image }}">
-                        <img class="img-responsive" alt="" src="/images/{{ $image->image }}" />
+                    <a class="thumbnail fancybox" rel="ligthbox" href="/images/business/{{ $image->image }}">
+                        <img class="img-responsive" alt="" src="/images/business/{{ $image->image }}" />
                         <div class='text-center'>
                             <small class='text-muted'>{{ $image->title }}</small>
                         </div> <!-- text-center / end -->
                     </a>
-                    <form action="{{ url('/admin/add_category',$image->id) }}" method="POST">
+                    <form action="{{ url('/admin/business',$image->id) }}" method="POST">
                     <input type="hidden" name="_method" value="delete">
                     {!! csrf_field() !!}
                     <button type="submit" class="close-icon btn btn-danger"><i class="glyphicon glyphicon-remove"></i></button>
