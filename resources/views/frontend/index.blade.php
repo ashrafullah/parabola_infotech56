@@ -1,5 +1,46 @@
 @extends('frontend.layouts.app')
 @section('content')
+<style>
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    /*padding: 16px;*/
+    font-size: 13px;
+    border: none;
+    height: 40px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+</style>
 	<body id="top">
 
 		<!-- start preloader -->
@@ -51,12 +92,57 @@
 				</div>
 				<div class="collapse navbar-collapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#top">HOME</a></li>
-						<li><a href="#team">BUSINESS VENTURES</a></li>
-						<li><a href="#service">SOCIAL & MEDIA</a></li>
+                        <li class="dropdown"><a href="#top">
+                          <button class="dropbtn">HOME</button>
+                          
+                        </a></li>
+                        <li class="dropdown"><a href="#team">
+                          <button class="dropbtn">BUSINESS VENTURES</button>
+                          <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                          </div>
+                        </a></li>
+                        <li class="dropdown"><a href="#service">
+                          <button class="dropbtn">SOCIAL & MEDIA</button>
+                          <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                          </div>
+                        </a></li>
+                        <li class="dropdown"><a href="#portfolio">
+                          <button class="dropbtn">PORTFOLIO</button>
+                          <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                          </div>
+                        </a></li>
+                        <li class="dropdown"><a href="#about">
+                          <button class="dropbtn">ABOUT</button>
+                          <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                          </div>
+                        </a></li>
+                        <li class="dropdown"><a href="#contact">
+                          <button class="dropbtn"> CONTACT</button>
+                          <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                          </div>
+                        </a></li>
+                        
+						<!-- <li><a href="#top">HOME</a></li> -->
+						<!-- <li><a href="#team">BUSINESS VENTURES</a></li> -->
+						<!-- <li><a href="#service">SOCIAL & MEDIA</a></li>
 						<li><a href="#portfolio">ABOUT US</a></li>
                         <li><a href="#about">ABOUT</a></li>
-						<li><a href="#contact">CONTACT</a></li>
+						<li><a href="#contact">CONTACT</a></li> -->
 					</ul>
 				</div>
 			</div>
@@ -78,7 +164,7 @@
     				</div>
     			</div>
 			</div> --}}
-			<div class="container">
+			<div class="container-full">
 				
 				<div id="myCarousel" class="carousel slide" data-ride="carousel">
 				  <!-- Indicators -->
@@ -163,6 +249,15 @@
             
                 @foreach($images as $image)
                 <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                    <a class="thumbnail fancybox" rel="ligthbox" href="/images/slider/{{ $image->image }}">
+                        <img class="img-responsive" alt="" src="/images/slider/{{ $image->image }}" />
+                        
+                    </a>
+                    
+                </div> <!-- col-6 / end -->
+                @endforeach
+                 @foreach($images as $image)
+                <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
                     <a class="thumbnail fancybox" rel="ligthbox" href="/images/business/{{ $image->image }}">
                         <img class="img-responsive" alt="" src="/images/business/{{ $image->image }}" />
                         
@@ -208,6 +303,7 @@
                         
                    
                          @endforeach
+                         <!-- <img class="img-responsive" alt="" src="images/ashraf.jpg"> -->
     				</div>
     			</div>
     		</div>
