@@ -241,30 +241,44 @@
     	<!-- start team -->
     	<section id="team">
     		<div class="container">
+                <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">Business Venture</h2>
 
 			 <div class="row">
     <div class='list-group gallery'>
 
 
             
-                @foreach($images as $image)
+                
+                 
                 <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-                    <a class="thumbnail fancybox" rel="ligthbox" href="/images/slider/{{ $image->image }}">
-                        <img class="img-responsive" alt="" src="/images/slider/{{ $image->image }}" />
+                    <a class="thumbnail fancybox" rel="ligthbox" href="">
+                        <img class="img-responsive" alt="" src="/images/business/parabola-infotech (1).jpg" />
+                        
+                    </a>
+                    
+                </div> 
+                <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                    <a class="thumbnail fancybox" rel="ligthbox" href="">
+                        <img class="img-responsive" alt="" src="/images/business/e (1).jpg" />
                         
                     </a>
                     
                 </div> <!-- col-6 / end -->
-                @endforeach
-                 @foreach($images as $image)
                 <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-                    <a class="thumbnail fancybox" rel="ligthbox" href="/images/business/{{ $image->image }}">
-                        <img class="img-responsive" alt="" src="/images/business/{{ $image->image }}" />
+                    <a class="thumbnail fancybox" rel="ligthbox" href="">
+                        <img class="img-responsive" alt="" src="/images/business/e.e-commerce-1.jpg" />
                         
                     </a>
                     
                 </div> <!-- col-6 / end -->
-                @endforeach
+                <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                    <a class="thumbnail fancybox" rel="ligthbox" href="">
+                        <img class="img-responsive" alt="" src="/images/business/fbi.jpg" />
+                        
+                    </a>
+                    
+                </div> <!-- col-6 / end -->
+               
             
 
 
@@ -280,31 +294,35 @@
     				<div class="col-md-12">
     					<h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">SOCIAL & MEDIA</h2>
     				</div>
-    				<div class="col-md-4 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
-    					@foreach($images as $image)
-               
-                                            <img class="img-responsive" alt="" src="/images/slider/{{ $image->image }}"/>
+    				  
+                <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                    <a class="thumbnail fancybox" rel="ligthbox" href="">
+                        <img class="img-responsive" alt="" src="/images/business/e.e-learning (1).jpg" />
                         
-                   
-                         @endforeach
-    				</div>
-    				<div class="col-md-4 active wow fadeIn" data-wow-offset="50" data-wow-delay="0.9s">
-    					@foreach($images as $image)
-               
-                                            <img class="img-responsive" alt="" src="/images/{{ $image->image }}"/>
+                    </a>
+                    
+                </div> 
+                <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                    <a class="thumbnail fancybox" rel="ligthbox" href="">
+                        <img class="img-responsive" alt="" src="/images/business/e.news_-1 (1).jpg" />
                         
-                   
-                         @endforeach
-    				</div>
-    				<div class="col-md-4 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
-    					@foreach($images as $image)
-               
-                                            <img class="img-responsive" alt="" src="/images/{{ $image->image }}"; />
+                    </a>
+                    
+                </div> <!-- col-6 / end -->
+                <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                    <a class="thumbnail fancybox" rel="ligthbox" href="">
+                        <img class="img-responsive" alt="" src="/images/business/e.e-commerce-1.jpg" />
                         
-                   
-                         @endforeach
-                         <!-- <img class="img-responsive" alt="" src="images/ashraf.jpg"> -->
-    				</div>
+                    </a>
+                    
+                </div> <!-- col-6 / end -->
+                <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                    <a class="thumbnail fancybox" rel="ligthbox" href="">
+                        <img class="img-responsive" alt="" src="/images/business/images (1).jpeg" />
+                        
+                    </a>
+                    
+                </div> <!-- col-6 / end -->
     			</div>
     		</div>
     	</section>
