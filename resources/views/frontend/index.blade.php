@@ -255,6 +255,9 @@
                         <img class="img-responsive" alt="" src="/images/business/parabola-infotech (1).jpg" />
                         
                     </a>
+                    <a href="#"><h4>Parabola InfoTech Ltd</h4></a>
+                    <h6>Parabola Info Tech is a one stop Information Technology solution provider, a Local ICT Venture of FBI Group but Global in Presence, based in Bangladesh.</h6>
+
                     
                 </div> 
                 <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
@@ -262,6 +265,8 @@
                         <img class="img-responsive" alt="" src="/images/business/e (1).jpg" />
                         
                     </a>
+                    <a href="#"><h4>Parabola Green Architect</h4></a>
+                    <h6>We care for your dream and want to merge it with environment so that you can have the feel of environment.</h6>
                     
                 </div> <!-- col-6 / end -->
                 <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
@@ -269,13 +274,18 @@
                         <img class="img-responsive" alt="" src="/images/business/e.e-commerce-1.jpg" />
                         
                     </a>
+                     <a href="#"><h4>E-Commerce</h4></a>
+                    <h6>We are here for you with a established e-commerce system to make your life easy and relax.</h6>
                     
                 </div> <!-- col-6 / end -->
                 <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
                     <a class="thumbnail fancybox" rel="ligthbox" href="">
                         <img class="img-responsive" alt="" src="/images/business/fbi.jpg" />
                         
+                        
                     </a>
+                    <a href="#"><h4>FutureTech Buildings Ideas Ltd</h4></a>
+                    <h6>We have learnt more about community issue , government fact and life of people. Your property is our liabilities to build with proper engineering with safety and make it valuable.</h6>
                     
                 </div> <!-- col-6 / end -->
                
