@@ -253,59 +253,11 @@
         <!-- start team -->
         <section id="team">
             <div class="container">
-                <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">Business Venture</h2>
+                <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">FUTURE BUILDING & IDEA</h2>
+                <h5 style="margin-left: 450px;">A SISTER CONCERN OF FBI GROUP</h5>
+                <p>Future building & Idea –A sister concern with FBI Group, a name synonymous with elegance, glorious & resolute in everything the group strives to do, is a force to reckon with in the generations to come.FBI is keeping the footprint in Building the stature in a league of its own by striving to advance persistently in pursuing the goals to be Different, Definitive & Dependable.We FBI, well known for developing a wide range of residential & commercial projects, has already revolutionized the industry in ways never imagined before. However, it is only the beginning. The company is equipped to deliver architecture, way of beyond imagination with its in House Highly experienced and utmost qualified architect’s team. The contemporary green building concept brings a luxurious, environment friendly, customized & exclusive look yet with a classical touch that makes you feel peace. The technologies used are exceptionally modern & state-of-the-art.FBI now continues to leap forward with its elite styles. Acknowledged as a “Super Brand” already, it signifies the impeccable impact FBI is creating on the industry & country as a whole.The pursuit for excellence continues to evolve, with a promise to astonish everyone each step of the way, designed in a way to deliver fulfillment.</p>
 
-             <div class="row">
-    <div class='list-group gallery'>
-
-
-            
-                
-                 
-                <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-                    <a class="thumbnail fancybox" rel="ligthbox" href="">
-                        <img class="img-responsive" alt="" src="/images/business/parabola-infotech (1).jpg" />
-                        
-                    </a>
-                    <a href="http://it.fbigroupbd.com/"><h4>Parabola InfoTech Ltd</h4></a>
-                    <h6>Parabola Info Tech is a one stop Information Technology solution provider, a Local ICT Venture of FBI Group but Global in Presence, based in Bangladesh.</h6>
-
-                    
-                </div> 
-                <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-                    <a class="thumbnail fancybox" rel="ligthbox" href="">
-                        <img class="img-responsive" alt="" src="/images/business/e (1).jpg" />
-                        
-                    </a>
-                    <a href="#"><h4>Parabola Green Architect</h4></a>
-                    <h6>We care for your dream and want to merge it with environment so that you can have the feel of environment.</h6>
-                    
-                </div> <!-- col-6 / end -->
-                <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-                    <a class="thumbnail fancybox" rel="ligthbox" href="">
-                        <img class="img-responsive" alt="" src="/images/business/e.e-commerce-1.jpg" />
-                        
-                    </a>
-                     <a href="#"><h4>E-Commerce</h4></a>
-                    <h6>We are here for you with a established e-commerce system to make your life easy and relax.</h6>
-                    
-                </div> <!-- col-6 / end -->
-                <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-                    <a class="thumbnail fancybox" rel="ligthbox" href="">
-                        <img class="img-responsive" alt="" src="/images/business/fbi.jpg" />
-                        
-                        
-                    </a>
-                    <a href="http://build.fbigroupbd.com/"><h4>FutureTech Buildings Ideas Ltd</h4></a>
-                    <h6>We have learnt more about community issue , government fact and life of people. Your property is our liabilities to build with proper engineering with safety and make it valuable.</h6>
-                    
-                </div> <!-- col-6 / end -->
-               
-            
-
-
-        </div> <!-- list-group / end -->
-    </div> <!-- row / end -->
+             <!--  -->
         </section>
         <!-- end team -->
 
@@ -314,8 +266,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">SOCIAL & MEDIA</h2>
-                    </div>
+                        <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">OUR VENTURE PROJECTS</h2>
+                        <p style="margin-left: 200px;">We have completed our recent projects and we are happy to make our client satisfied. You can see our recent completed projects form here.</p>
+                    </div><br><br><br>
                       
                 <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
                     <a class="thumbnail fancybox" rel="ligthbox" href="">
@@ -355,8 +308,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s"><span>MY</span> PORTFOLIO</h2>
-                        <p>My design and development work</p>
+                        <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">OUR CONTRACTUAL PROJECTS</h2>
+                        <p>We are not only involve in joing venture projects but also involve in contractual projects where owner can rely us on developing .We have completed our recent projects and we are happy to make our client satisfied.</p>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
                         <div class="portfolio-thumb">
