@@ -2,8 +2,8 @@
 @section('content')
 <style>
 .dropbtn {
-    background-color: #4CAF50;
-    color: white;
+    background-color: white;
+    color: #80bfff;
     /*padding: 16px;*/
     font-size: 13px;
     border: none;
@@ -38,7 +38,7 @@
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: white;
 }
 </style>
 	<body id="top">
@@ -255,7 +255,7 @@
                         <img class="img-responsive" alt="" src="/images/business/parabola-infotech (1).jpg" />
                         
                     </a>
-                    <a href="#"><h4>Parabola InfoTech Ltd</h4></a>
+                    <a href="http://it.fbigroupbd.com/"><h4>Parabola InfoTech Ltd</h4></a>
                     <h6>Parabola Info Tech is a one stop Information Technology solution provider, a Local ICT Venture of FBI Group but Global in Presence, based in Bangladesh.</h6>
 
                     
@@ -284,7 +284,7 @@
                         
                         
                     </a>
-                    <a href="#"><h4>FutureTech Buildings Ideas Ltd</h4></a>
+                    <a href="http://build.fbigroupbd.com/"><h4>FutureTech Buildings Ideas Ltd</h4></a>
                     <h6>We have learnt more about community issue , government fact and life of people. Your property is our liabilities to build with proper engineering with safety and make it valuable.</h6>
                     
                 </div> <!-- col-6 / end -->
