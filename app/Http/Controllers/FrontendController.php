@@ -22,4 +22,11 @@ class FrontendController extends Controller
     	// $obj = (object) array_merge((array) $images, (array) $business);
     	return view('frontend.building', compact('images','business'));
     }
+     public function it()
+    {
+        $images = ImageGallery::get();
+        $business = Business::get();
+        // $obj = (object) array_merge((array) $images, (array) $business);
+        return view('frontend.its', compact('images','business'));
+    }
 }

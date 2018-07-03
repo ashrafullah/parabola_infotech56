@@ -56,7 +56,7 @@
     	<!-- end preloader -->
 
         <!-- start header -->
-        <header>
+        <header style="height: 50px;">
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 col-sm-4 col-xs-12">
@@ -83,12 +83,25 @@
 		<nav class="navbar navbar-default templatemo-nav" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon icon-bar"></span>
+                        <span class="icon icon-bar"></span>
+                        <span class="icon icon-bar"></span>
+                    </button>
+                    <!-- <a href="#top" class="navbar-brand">Parabola Infotech</a> -->
+                    <a href="#top" class="navbar-brand"><img src="{{asset('frontend/images/logo (1).png')}}" width="70px;" height="60px";></a>
+                    <!-- <h6 class="" style="color: black;">Fbi Group</h6> -->
+                </div> 
+                <div class="navbar-header" style="margin-left: 10px;">
 					<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 						<span class="icon icon-bar"></span>
 						<span class="icon icon-bar"></span>
 						<span class="icon icon-bar"></span>
 					</button>
-					<a href="#top" class="navbar-brand">Parabola Infotech</a>
+					<!-- <a href="#top" class="navbar-brand">Parabola Infotech</a> -->
+                    <a href="#top" class="navbar-brand"><h4 style="color: black;">Fbi Group</h4><h6>Featuring the future of Bangladesh
+</h6></a>
+                    <!-- <h6 class="" style="color: black;">Fbi Group</h6> -->
 				</div>
 				<div class="collapse navbar-collapse">
 					<ul class="nav navbar-nav navbar-right">
@@ -156,8 +169,8 @@
     				<div class="col-md-offset-2 col-md-8">
     					<h1 class="wow fadeIn" data-wow-offset="50" data-wow-delay="0.9s"><img src="images/ashraf.jpg" class="img-circle" alt="Cinque Terre" width="250" height="270"></h1>
     					<div class="element">
-                            <div class="sub-element">Md. Ashraf Ullah Bhuiyan</div>
-                            <div class="sub-element">Web Designer / Web Developer</div>
+                           <!--  <div class="sub-element">Md. Ashraf Ullah Bhuiyan</div>
+                            <div class="sub-element">Web Designer / Web Developer</div> -->
                            <!-- <div class="sub-element">Download, edit and apply this awesome template for your websites</div>-->
                         </div>
     					<a data-scroll href="#about" class="btn btn-default wow fadeInUp" data-wow-offset="50" data-wow-delay="0.6s">About</a>
@@ -251,7 +264,8 @@
                 
                  
                 <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-                    <a class="thumbnail fancybox" rel="ligthbox" href="">
+                    <!-- <a class="thumbnail fancybox" rel="ligthbox" href=""> -->
+                    <a class="thumbnail" rel="ligthbox" href="">
                         <img class="img-responsive" alt="" src="/images/business/parabola-infotech (1).jpg" />
                         
                     </a>
@@ -261,7 +275,8 @@
                     
                 </div> 
                 <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-                    <a class="thumbnail fancybox" rel="ligthbox" href="">
+                    <!-- <a class="thumbnail fancybox" rel="ligthbox" href=""> -->
+                    <a class="thumbnail" rel="ligthbox" href="">
                         <img class="img-responsive" alt="" src="/images/business/e (1).jpg" />
                         
                     </a>
@@ -270,7 +285,8 @@
                     
                 </div> <!-- col-6 / end -->
                 <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-                    <a class="thumbnail fancybox" rel="ligthbox" href="">
+                    <!-- <a class="thumbnail fancybox" rel="ligthbox" href=""> -->
+                    <a class="thumbnail" rel="ligthbox" href="">
                         <img class="img-responsive" alt="" src="/images/business/e.e-commerce-1.jpg" />
                         
                     </a>
@@ -279,7 +295,8 @@
                     
                 </div> <!-- col-6 / end -->
                 <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-                    <a class="thumbnail fancybox" rel="ligthbox" href="">
+                    <!-- <a class="thumbnail fancybox" rel="ligthbox" href=""> -->
+                    <a class="thumbnail" rel="ligthbox" href="">
                         <img class="img-responsive" alt="" src="/images/business/fbi.jpg" />
                         
                         
@@ -306,28 +323,32 @@
     				</div>
     				  
                 <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-                    <a class="thumbnail fancybox" rel="ligthbox" href="">
+                    <!-- <a class="thumbnail fancybox" rel="ligthbox" href=""> -->
+                    <a class="thumbnail" rel="ligthbox" href="">
                         <img class="img-responsive" alt="" src="/images/business/e.e-learning (1).jpg" />
                         
                     </a>
                     
                 </div> 
                 <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-                    <a class="thumbnail fancybox" rel="ligthbox" href="">
+                    <!-- <a class="thumbnail fancybox" rel="ligthbox" href=""> -->
+                    <a class="thumbnail" rel="ligthbox" href="">
                         <img class="img-responsive" alt="" src="/images/business/e.news_-1 (1).jpg" />
                         
                     </a>
                     
                 </div> <!-- col-6 / end -->
                 <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-                    <a class="thumbnail fancybox" rel="ligthbox" href="">
+                    <!-- <a class="thumbnail fancybox" rel="ligthbox" href=""> -->
+                    <a class="thumbnail" rel="ligthbox" href="">
                         <img class="img-responsive" alt="" src="/images/business/e.e-commerce-1.jpg" />
                         
                     </a>
                     
                 </div> <!-- col-6 / end -->
                 <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-                    <a class="thumbnail fancybox" rel="ligthbox" href="">
+                    <!-- <a class="thumbnail fancybox" rel="ligthbox" href=""> -->
+                    <a class="thumbnail" rel="ligthbox" href="">
                         <img class="img-responsive" alt="" src="/images/business/images (1).jpeg" />
                         
                     </a>

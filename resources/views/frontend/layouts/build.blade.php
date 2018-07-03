@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         
         <title>Parabola Infotech Ltd</title>
-        <link rel="icon" type="image/jpg" href="{{asset('frontend/images/logo (1).png')}}" />
+        <link rel="icon" type="image/jpg" href="{{asset('frontend/images/logo.png')}}" />
         <meta name="keywords" content="">
         <meta name="description" content="">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">

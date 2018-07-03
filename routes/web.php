@@ -42,3 +42,4 @@ Route::get('/admin/users_list', 'AdminController@users_list')->name('users_list'
 
 Route::get('/frontend/index', 'FrontendController@frontend')->name('frontend_index');
 Route::get('/frontend/building', 'FrontendController@building')->name('frontend_building');
+Route::get('/frontend/it', 'FrontendController@it')->name('frontend_it');

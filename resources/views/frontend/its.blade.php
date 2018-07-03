@@ -1,4 +1,4 @@
-@extends('frontend.layouts.build')
+@extends('frontend.layouts.it')
 @section('content')
 <style>
 .dropbtn {
@@ -89,7 +89,7 @@
                         <span class="icon icon-bar"></span>
                     </button>
                     <!-- <a href="#top" class="navbar-brand">Parabola Infotech</a> -->
-                    <a href="#top" class="navbar-brand"><img src="{{asset('frontend/images/logo.png')}}" width="70px;" height="60px"; margin-bottom="10px";> </a>
+                    <a href="#top" class="navbar-brand"><img style="margin-left: 10px;" src="{{asset('frontend/images/logoN-300x71.png')}}" width="220px;" height="50px"; margin-bottom="10px";> </a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -196,7 +196,7 @@
                       <!-- <img src=" alt="" style="width:100%;') }}"> -->
                        @foreach($images as $image)
                
-                                            <img class="img-responsive" alt="" src="/images/slider/real-estate.jpg" style="width: 100%"; />
+                                            <img class="img-responsive" alt="" src="/images/slider/object-oriented-plat.jpg" style="width: 100%"; />
                                             <!-- <img class="img-responsive" alt="" src="/images/slider/{{ $image->image }}" style="width: 100%"; /> -->
                         
                    
@@ -211,7 +211,7 @@
                     <div class="item">
                       @foreach($images as $image)
                
-                                            <img class="img-responsive" alt="" src="/images/slider/image_20170210_195645_4289.jpg" style="width: 100%"; />
+                                            <img class="img-responsive" alt="" src="/images/slider/Software-Development.jpg" style="width: 100%"; />
                         
                    
                          @endforeach
@@ -224,7 +224,7 @@
                     <div class="item">
                         @foreach($images as $image)
                
-                                            <img class="img-responsive" alt="" src="/images/slider/Luxury-Property-5-of-the-Best-Waterfront-Homes-in-the-World-turtle-tail-drive-4.jpg" style="width: 100%"; />
+                                            <img class="img-responsive" alt="" src="/images/slider/IT-services.jpg" style="width: 100%"; />
                         
                    
                          @endforeach
@@ -276,9 +276,9 @@
                       
                 <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
                     <!-- <a class="thumbnail fancybox" rel="ligthbox" href=""> -->
-                    <a class="thumbnail" rel="ligthbox" href="">
+                    <a class="thumbnail"  href="">
                     <!-- <a class="thumbnail fancybox" rel="ligthbox" href=""> -->
-                        <img class="img-responsive" alt="" src="/images/business/FBI-Robiul-Castle_g_block-600x430 (1).jpg" />
+                        <img class="img-responsive" alt="" src="/images/business/ERP.jpg" />
 
                         
                     </a>
