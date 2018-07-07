@@ -76,6 +76,7 @@
                         <a href="{{ route('admin') }}">Admin</a>
                         <a href="{{ route('frontend_index') }}">Frontend</a>
                         <a href="{{ route('frontend_building') }}">Building</a>
+                        <a href="{{ route('frontend_it') }}">IT</a>
                     @endauth
                 </div>
             @endif

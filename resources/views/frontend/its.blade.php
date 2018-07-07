@@ -99,12 +99,12 @@
                         </a></li>
                         <li class="dropdown"><a href="#">
                         <!-- <li class="dropdown"><a href="#team"> -->
-                          <button class="dropbtn">Contructual Projects </button>
+                          <button class="dropbtn">Business Solutions </button>
                           
                         </a></li>
                         <!-- <li class="dropdown"><a href="#service"> -->
                         <li class="dropdown"><a href="#">
-                          <button class="dropbtn">Venture Projects</button>
+                          <button class="dropbtn">Our Projects</button>
                           <div class="dropdown-content">
                             <a href="#">Link 1</a>
                             <a href="#">Link 2</a>
@@ -113,7 +113,7 @@
                         </a></li>
                         <!-- <li class="dropdown"><a href="#portfolio"> -->
                         <li class="dropdown"><a href="#">
-                          <button class="dropbtn">Media Center</button>
+                          <button class="dropbtn">Service & Solutions</button>
                           <div class="dropdown-content">
                             <a href="#">Link 1</a>
                             <a href="#">Link 2</a>
@@ -122,7 +122,7 @@
                         </a></li>
                         <!-- <li class="dropdown"><a href="#about"> -->
                         <li class="dropdown"><a href="#">
-                          <button class="dropbtn">E-service</button>
+                          <button class="dropbtn">Social Service</button>
                           <div class="dropdown-content">
                             <a href="#">Link 1</a>
                             <a href="#">Link 2</a>
@@ -130,14 +130,14 @@
                           </div>
                         </a></li>
                         <!-- <li class="dropdown"><a href="#contact"> -->
-                        <li class="dropdown"><a href="#">
-                          <button class="dropbtn"> About us</button>
+                       <!--  <li class="dropdown"><a href="#">
+                          <button class="dropbtn"> Team Members</button>
                           <div class="dropdown-content">
                             <a href="#">Link 1</a>
                             <a href="#">Link 2</a>
                             <a href="#">Link 3</a>
                           </div>
-                        </a></li>
+                        </a></li> -->
                          <!-- <li class="dropdown"><a href="#contact"> -->
                          <li class="dropdown"><a href="#">
                           <button class="dropbtn"> Contact us</button>
@@ -257,9 +257,12 @@
         <!-- start team -->
         <section id="team">
             <div class="container">
-                <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">FUTURE BUILDING & IDEA</h2>
-                <h5 style="margin-left: 450px;">A SISTER CONCERN OF FBI GROUP</h5>
-                <p>Future building & Idea –A sister concern with FBI Group, a name synonymous with elegance, glorious & resolute in everything the group strives to do, is a force to reckon with in the generations to come.FBI is keeping the footprint in Building the stature in a league of its own by striving to advance persistently in pursuing the goals to be Different, Definitive & Dependable.We FBI, well known for developing a wide range of residential & commercial projects, has already revolutionized the industry in ways never imagined before. However, it is only the beginning. The company is equipped to deliver architecture, way of beyond imagination with its in House Highly experienced and utmost qualified architect’s team. The contemporary green building concept brings a luxurious, environment friendly, customized & exclusive look yet with a classical touch that makes you feel peace. The technologies used are exceptionally modern & state-of-the-art.FBI now continues to leap forward with its elite styles. Acknowledged as a “Super Brand” already, it signifies the impeccable impact FBI is creating on the industry & country as a whole.The pursuit for excellence continues to evolve, with a promise to astonish everyone each step of the way, designed in a way to deliver fulfillment.</p>
+                <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">COMPANY OVERVIEW</h2>
+                <!-- <h5 style="margin-left: 450px;">A SISTER CONCERN OF FBI GROUP</h5> -->
+                <p>Parabola Info Tech is a one stop Information Technology solution provider, a Local ICT Venture of FBI Group but Global in Presence, based in Bangladesh; committed to quality, timeliness and cost effectiveness solutions. Parabola Info Tech is specialized in providing custom Software Solution, Cloud Computing, Digital Forensics, Security Access Management, Computer network, web design, web application & Apps development for businesses and others concerns.</p><br>
+                <p>Parabola Info Tech is home to a dedicated team of skilled IT professionals who are ready to serve your IT needs with customized solutions irrespective of the size of your company. Specializing in development of business software, Parabola Info Tech ensures the delivery of quality IT services to the entire satisfaction of customers.
+The Management Team at Parabola Info Tech is a devoted pool of experience and expertise indiscipline’s of technology as well as organizational development skills. With expertise and proficiencies that are immensely critical in delivering quality services, Parabola Info Tech aids their clients to achieve their goals and to ensure that the respective projects are planned and managed effectively as well as efficiently.</p><br>
+                <p>Parabola Info Tech technical team expertise ranges from the likes of programming ,Cloud computing ,web Application & Apps development , software engineering, analysts, domain experts to that of database and system architecture design to name a few. By fusing together this vast range of knowledge with proactive thinking and strategic planning we strive to deliver business solutions above par and approach new challenges with the client’s business objectives in mind.</p>
 
              <!--  -->
         </section>
@@ -270,52 +273,30 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">OUR VENTURE PROJECTS</h2>
-                        <p style="margin-left: 200px;">We have completed our recent projects and we are happy to make our client satisfied. You can see our recent completed projects form here.</p>
+                        <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">INTRODUCTION</h2>
+                        <h4 style="margin-left: 20px;">passion</h4>
                     </div><br><br><br>
+                    <p>
+                        Passion’ is a word so excessively used and almost always blindingly paired with work, that if you actually ask around you may find that not everyone really gets what Passion is. At the root of it all, it points to that strong emotion you have inside of you, for someone, or some thing. And anyone who has ever succeeded in making a name for themselves would probably state their passion for the work / craft / industry as a reason for their success, but do you know yours?
+                    </p><br>
                       
-                <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-                    <!-- <a class="thumbnail fancybox" rel="ligthbox" href=""> -->
-                    <a class="thumbnail"  href="">
-                    <!-- <a class="thumbnail fancybox" rel="ligthbox" href=""> -->
-                        <img class="img-responsive" alt="" src="/images/business/ERP.jpg" />
-
+                
+               
+                
+            </div>
+              <div class="row">
+                    <div class="col-md-12">
                         
-                    </a>
-                    <h4>Completed projects</h4>
-                    
-                </div> 
-                <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-                    <!-- <a class="thumbnail fancybox" rel="ligthbox" href=""> -->
-                    <a class="thumbnail" rel="ligthbox" href="">
-                    <!-- <a class="thumbnail fancybox" rel="ligthbox" href=""> -->
-                        <img class="img-responsive" alt="" src="/images/business/FBI-Noor-Garden_g_block-600x430.jpg" />
-                        
-                    </a>
-                    <h4>On going projects</h4>
-                    
-                </div> <!-- col-6 / end -->
-                <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-                    <!-- <a class="thumbnail fancybox" rel="ligthbox" href=""> -->
-                    <a class="thumbnail" rel="ligthbox" href="">
-                    <!-- <a class="thumbnail fancybox" rel="ligthbox" href=""> -->
-                        <img class="img-responsive" alt="" src="/images/business/Real-Estate-1.jpg" />
-                        
-                    </a>
-                    <h4>Upcomming projects</h4>
-                    
-                </div> <!-- col-6 / end -->
-                <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-                    <!-- <a class="thumbnail fancybox" rel="ligthbox" href=""> -->
-                    <a class="thumbnail" rel="ligthbox" href="">
-                    <!-- <a class="thumbnail fancybox" rel="ligthbox" href=""> -->
-                        <img class="img-responsive" alt="" src="/images/business/Screenshot - 03-Jul-18 , 11_07_17 AM.png" />
-                        
-                    </a>
-                    <h4>Future projects</h4>
-                    
-                </div> <!-- col-6 / end -->
-                </div>
+                        <h4 style="margin-left: 20px;">work</h4>
+                    </div><br><br><br>
+                    <p>
+                        I asked around, compiled some questions, got some answers, had a few headaches trying to decipher why everyone is telling me different things about what passion is to them. For example, some equate a passion (for something) to a hobby or a dream, but just because you love to sing (in the shower), that doesn’t necessarily mean that your passion is the act of singing.
+                    </p><br>
+                      
+                
+               
+                
+            </div>
             </div>
         </section>
         <!-- end servie -->
@@ -326,47 +307,60 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">OUR VENTURE PROJECTS</h2>
-                        <p style="margin-left: 200px;">We have completed our recent projects and we are happy to make our client satisfied. You can see our recent completed projects form here.</p>
+                        <!-- <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">Mission</h2> -->
+                       
                     </div><br><br><br>
                       
-                <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+                <!-- <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'> -->
+                <div>
+                    <h4>Mission</h4>
                     <a class="thumbnail" rel="ligthbox" href="">
                     <!-- <a class="thumbnail fancybox" rel="ligthbox" href=""> -->
                         <!-- <img class="img-responsive" alt="" src="/images/business/FBI-Noor-Garden_g_block-600x430.jpg" /> -->
-                         <img class="img-responsive" alt="" src="/images/business/Real-Estate-1.jpg" />
+                         <img class="img-responsive" alt="" src="/images/business/tape-234x300.png" />
 
                         
                     </a>
+                    <p>
+                        Parabola Infotech is a Software Development company dedicated to providing high-quality Softwares in a comfortable atmosphere for clients who seek secure and active experience outside the box. We intend to make enough profit to generate a fair return for our investors and to finance continued growth and development in quality products. We also maintain a friendly, fair, and creative work environment, which respects diversity, new ideas, and hard work.
+                    </p>
                     <!-- <h4>Completed projects</h4> -->
                     
                 </div> 
-                <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-                    <a class="thumbnail" rel="ligthbox" href="">
-                    <!-- <a class="thumbnail fancybox" rel="ligthbox" href=""> -->
-                        <img class="img-responsive" alt="" src="/images/business/FBI-Robiul-Castle_g_block-600x430 (1).jpg" />
-                        
-                    </a>
-                    <!-- <h4>On going projects</h4> -->
-                    
-                </div> <!-- col-6 / end -->
-                <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-                    <a class="thumbnail" rel="ligthbox" href="">
-                    <!-- <a class="thumbnail fancybox" rel="ligthbox" href=""> -->
-                       <!-- <img class="img-responsive" alt="" src="/images/business/FBI-Noor-Garden_g_block-600x430.jpg" /> -->
-                       <img class="img-responsive" alt="" src="/images/business/Screenshot - 03-Jul-18 , 11_07_17 AM.png" />
-                        
-                    </a>
-                    <!-- <h4>Upcomming projects</h4> -->
-                    
-                </div> <!-- col-6 / end -->
-                <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+               
+                
+                </div>
+            </div>
+        </section>
+        <!-- end servie -->
+        </section>
+        <!-- end portfolio -->
+        <!-- start portfolio -->
+        <section id="portfolio">
+            <section id="service">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">Mission</h2> -->
+                       
+                    </div><br><br><br>
+                      
+             
+               
+                <!-- <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'> -->
+                <div>
+                    <h4>
+                        Vision
+                    </h4>
                     <a class="thumbnail" rel="ligthbox" href="">
                     <!-- <a class="thumbnail fancybox" rel="ligthbox" href=""> -->
                         <!-- <img class="img-responsive" alt="" src="/images/business/Screenshot - 03-Jul-18 , 11_07_17 AM.png" /> -->
-                        <img class="img-responsive" alt="" src="/images/business/FBI-Noor-Garden_g_block-600x430.jpg" />
+                        <img class="img-responsive" alt="" src="/images/business/watch-191x300.png" />
                         
                     </a>
+                    <p>
+                        When it comes to customer commitment, not many companies are as hyper-focused as Parabola Infotech is. Although development selection, quality, and value all have a place in the company’s mission statement, it’s crystal clear that it’s all about the customer: Parabola Infotech works relentlessly to give customers the most promising software experience as possible. If you’ve ever dealt with Parabola Infotech , you’ll know the brand will uphold the high standard for customer service mentioned in its mission statement, as associates are always roaming asking customers whether they’ve been helped, and doing everything they can to make the experience a memorable one.
+                    </p>
                     <!-- <h4>Future projects</h4> -->
                     
                 </div> <!-- col-6 / end -->
@@ -517,25 +511,54 @@ Board of directories has been structured in a such way to meet any problem and t
                         <div class="col-md-8">
                         <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown"><a href="#top">
-                          Owner Registration
+                          About us
                           
                         </a></li>
                         <li class="dropdown"><a href="#team">
-                          Booking form
+                          Business Solutions
                           
                         </a></li>
                         <li class="dropdown"><a href="#service">
-                          Loan calculator
+                          Competence & Quality
                           
                         </a></li>
                         <li class="dropdown"><a href="#portfolio">
-                          Completed projects
+                          Contact Us
                           
                         </a></li>
                         <li class="dropdown"><a href="#about">
-                          On going projects
+                          Expertise
+                          
+                        </a></li> 
+                        <li class="dropdown"><a href="#about">
+                          Home
+                          
+                        </a></li> 
+                        <li class="dropdown"><a href="#about">
+                         Knowledge & Experience
+                          
+                        </a></li> 
+                        <li class="dropdown"><a href="#about">
+                          Media Center
                           
                         </a></li>
+                        <li class="dropdown"><a href="#about">
+                          Our Projects
+                          
+                        </a></li>
+                        <li class="dropdown"><a href="#about">
+                          Service & Solutions
+                          
+                        </a></li>
+                        <li class="dropdown"><a href="#about">
+                          Social Service
+                          
+                        </a></li>
+                        <li class="dropdown"><a href="#about">
+                          Team Members
+                          
+                        </a></li>
+
                        
                     </ul>
                     
