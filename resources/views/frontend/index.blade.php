@@ -40,6 +40,9 @@
 .dropdown:hover .dropbtn {
     background-color: white;
 }
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
 </style>
 	<body id="top">
 
@@ -105,50 +108,96 @@
 				</div>
 				<div class="collapse navbar-collapse">
 					<ul class="nav navbar-nav navbar-right">
-                        <li class="dropdown"><a href="#top">
+                       <!--  <li class="dropdown"><a href="#top">
                           <button class="dropbtn">HOME</button>
                           
-                        </a></li>
-                        <li class="dropdown"><a href="#team">
+                        </a></li> -->
+                        <li class="dropdown">
+              <a href="#top">HOME</b></a>
+              
+            </li> 
+                       <!--  <li class="dropdown"><a href="#team">
                           <button class="dropbtn">BUSINESS VENTURES</button>
                           <div class="dropdown-content">
                             <a href="#">Link 1</a>
                             <a href="#">Link 2</a>
                             <a href="#">Link 3</a>
                           </div>
-                        </a></li>
-                        <li class="dropdown"><a href="#service">
+                        </a></li> -->
+                         <li class="dropdown">
+              <a href="#team" class="dropdown-toggle" data-toggle="dropdown">BUSINESS VENTURES <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+              </ul>
+            </li> 
+                       <!--  <li class="dropdown"><a href="#service">
                           <button class="dropbtn">SOCIAL & MEDIA</button>
                           <div class="dropdown-content">
                             <a href="#">Link 1</a>
                             <a href="#">Link 2</a>
                             <a href="#">Link 3</a>
                           </div>
-                        </a></li>
-                        <li class="dropdown"><a href="#portfolio">
+                        </a></li> -->
+
+
+                         <li class="dropdown">
+              <a href="#service" class="dropdown-toggle" data-toggle="dropdown">SOCIAL & MEDIA <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+              </ul>
+            </li> 
+                        <!-- <li class="dropdown"><a href="#portfolio">
                           <button class="dropbtn">PORTFOLIO</button>
                           <div class="dropdown-content">
                             <a href="#">Link 1</a>
                             <a href="#">Link 2</a>
                             <a href="#">Link 3</a>
                           </div>
-                        </a></li>
-                        <li class="dropdown"><a href="#about">
+                        </a></li> -->
+                         <li class="dropdown">
+              <a href="#portfolio" class="dropdown-toggle" data-toggle="dropdown">PORTFOLIO <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+              </ul>
+            </li> 
+                        <!-- <li class="dropdown"><a href="#about">
                           <button class="dropbtn">ABOUT</button>
                           <div class="dropdown-content">
                             <a href="#">Link 1</a>
                             <a href="#">Link 2</a>
                             <a href="#">Link 3</a>
                           </div>
-                        </a></li>
-                        <li class="dropdown"><a href="#contact">
+                        </a></li> -->
+                         <li class="dropdown">
+              <a href="#about" class="dropdown-toggle" data-toggle="dropdown">ABOUT <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+              </ul>
+            </li> 
+                        <!-- <li class="dropdown"><a href="#contact">
                           <button class="dropbtn"> CONTACT</button>
                           <div class="dropdown-content">
                             <a href="#">Link 1</a>
                             <a href="#">Link 2</a>
                             <a href="#">Link 3</a>
                           </div>
-                        </a></li>
+                        </a></li> -->
+                         <li class="dropdown">
+              <a href="#contact" class="dropdown-toggle" data-toggle="dropdown">CONTACT <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+              </ul>
+            </li> 
                         
 						<!-- <li><a href="#top">HOME</a></li> -->
 						<!-- <li><a href="#team">BUSINESS VENTURES</a></li> -->
