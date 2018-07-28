@@ -42,6 +42,7 @@
 }
 .dropdown:hover>.dropdown-menu{
     display: block;
+    /*height: 20px;*/
 }
 </style>
 	<body id="top">
@@ -85,16 +86,16 @@
     	<!-- start navigation -->
 		<nav class="navbar navbar-default templatemo-nav" role="navigation">
 			<div class="container">
-				<div class="navbar-header">
+				<!-- <div class="navbar-header">
                     <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="icon icon-bar"></span>
                         <span class="icon icon-bar"></span>
                         <span class="icon icon-bar"></span>
                     </button>
                     <!-- <a href="#top" class="navbar-brand">Parabola Infotech</a> -->
-                    <a href="#top" class="navbar-brand"><img src="{{asset('frontend/images/logo (1).png')}}" width="70px;" height="60px";></a>
+                    <!-- <a href="#top" class="navbar-brand"><img src="{{asset('frontend/images/logo (1).png')}}" width="70px;" height="60px";></a> -->
                     <!-- <h6 class="" style="color: black;">Fbi Group</h6> -->
-                </div> 
+                </div>  -->
                 <div class="navbar-header" style="margin-left: 10px;">
 					<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 						<span class="icon icon-bar"></span>
@@ -102,6 +103,7 @@
 						<span class="icon icon-bar"></span>
 					</button>
 					<!-- <a href="#top" class="navbar-brand">Parabola Infotech</a> -->
+                    <a href="#top" class="navbar-brand"><img src="{{asset('frontend/images/logo (1).png')}}" width="70px;" height="60px";></a>
                     <a href="#top" class="navbar-brand"><h4 style="color: black;">Fbi Group</h4><h6>Featuring the future of Bangladesh
 </h6></a>
                     <!-- <h6 class="" style="color: black;">Fbi Group</h6> -->
@@ -126,10 +128,10 @@
                         </a></li> -->
                          <li class="dropdown">
               <a href="#team" class="dropdown-toggle" data-toggle="dropdown">BUSINESS VENTURES <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
+              <ul class="dropdown-menu" style="width: 200px;">
+                <a style="height: 10px; margin-left:10px;" href="#">Action</a><br>
+                <a style="height: 10px; margin-left:10px;" href="#">Another action</a><br>
+                <a style="height: 10px; margin-left:10px;" href="#"><i class="fa fa-envelope" aria-hidden="true"></i> Something else here</a>
               </ul>
             </li> 
                        <!--  <li class="dropdown"><a href="#service">
@@ -144,10 +146,10 @@
 
                          <li class="dropdown">
               <a href="#service" class="dropdown-toggle" data-toggle="dropdown">SOCIAL & MEDIA <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
+               <ul class="dropdown-menu" style="width: 200px;">
+                <a style="height: 10px; margin-left:10px;" href="#">Action</a><br>
+                <a style="height: 10px; margin-left:10px;" href="#">Another action</a><br>
+                <a style="height: 10px; margin-left:10px;" href="#"><i class="fa fa-envelope" aria-hidden="true"></i> Something else here</a>
               </ul>
             </li> 
                         <!-- <li class="dropdown"><a href="#portfolio">
@@ -160,10 +162,10 @@
                         </a></li> -->
                          <li class="dropdown">
               <a href="#portfolio" class="dropdown-toggle" data-toggle="dropdown">PORTFOLIO <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
+               <ul class="dropdown-menu" style="width: 200px;">
+                <a style="height: 10px; margin-left:10px;" href="#">Action</a><br>
+                <a style="height: 10px; margin-left:10px;" href="#">Another action</a><br>
+                <a style="height: 10px; margin-left:10px;" href="#"><i class="fa fa-envelope" aria-hidden="true"></i> Something else here</a>
               </ul>
             </li> 
                         <!-- <li class="dropdown"><a href="#about">
@@ -176,10 +178,10 @@
                         </a></li> -->
                          <li class="dropdown">
               <a href="#about" class="dropdown-toggle" data-toggle="dropdown">ABOUT <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
+               <ul class="dropdown-menu" style="width: 200px;">
+                <a style="height: 10px; margin-left:10px;" href="#">Action</a><br>
+                <a style="height: 10px; margin-left:10px;" href="#">Another action</a><br>
+                <a style="height: 10px; margin-left:10px;" href="#"><i class="fa fa-envelope" aria-hidden="true"></i> Something else here</a>
               </ul>
             </li> 
                         <!-- <li class="dropdown"><a href="#contact">
