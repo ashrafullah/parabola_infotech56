@@ -92,7 +92,7 @@
                         <span class="icon icon-bar"></span>
                         <span class="icon icon-bar"></span>
                     </button>
-                    <!-- <a href="#top" class="navbar-brand">Parabola Infotech</a> -->
+                    <a href="#top" class="navbar-brand">Parabola Infotech</a> -->
                     <!-- <a href="#top" class="navbar-brand"><img src="{{asset('frontend/images/logo (1).png')}}" width="70px;" height="60px";></a> -->
                     <!-- <h6 class="" style="color: black;">Fbi Group</h6> -->
                 </div>  -->
